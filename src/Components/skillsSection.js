@@ -1,0 +1,21 @@
+import React from "react";
+import HomeButton from "../uiComponents/homeButton";
+import photos from "../mediaFolder/photos";
+export default function Skills()
+{
+    return(
+        <div className="skill-container row">
+            <HomeButton/>
+            <h1 ><b>Professional Skillset 🎯</b></h1>
+        {photos.map((photo, index) => (
+
+        <div key={index} className="card col-g-3  col-md-6 col-sm-12">
+            <div className="card-body">
+                <img src={photo.thumbnail} alt={photo.altname} width={100} height={100}/>
+            </div>
+        
+        </div>
+        ))}
+        </div>
+    )
+}
