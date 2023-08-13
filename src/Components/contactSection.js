@@ -7,7 +7,7 @@ export default function Contact()
 {
     function handleResume()
     {
-        const resumeUrl = 'https://drive.google.com/file/d/1AsznaFgj4KV7gIBrYHKeP8WUdDB20uPf/view';
+        const resumeUrl = 'https://drive.google.com/file/d/1HoVAmjt_XBFzDzIHNQhP09Ci_hH-dnei/view';
       
         // create a new anchor element
         const downloadLink = document.createElement('a');
