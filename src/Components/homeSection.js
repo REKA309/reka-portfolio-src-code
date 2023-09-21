@@ -36,15 +36,35 @@ export default function Home()
       // simulate a click on the anchor element to trigger the download
       downloadLink.click();
     }
+    function handleResume()
+    {
+        const resumeUrl = 'https://drive.google.com/file/d/1kzy6xIkiPp9S0RzQ6-5hWpLhUwILo0W4/view';
+      
+        // create a new anchor element
+        const downloadLink = document.createElement('a');
+        
+        // set the href attribute of the anchor to the URL of your resume PDF file
+        downloadLink.href = resumeUrl;
+        downloadLink.target='_blank';
+        
+        // set the download attribute of the anchor to the filename you want to use for the downloaded file
+        downloadLink.download = 'resume.pdf';
+        
+        // simulate a click on the anchor element to trigger the download
+        downloadLink.click();
+    }
     return(
        <div className="home-container">
         <div className="home-content">
         {isDesktop ?<HomeDesktop/> :<HomePhone/>}
         
-        <div className="demobtn">
+        <div className="demobtn buttons">
        
           <Button variant="contained" color="secondary" onClick={handleDownload}>
             VIEW CERTIFICATIONS
+          </Button>
+          <Button variant="contained" color="secondary" onClick={handleResume}>
+            DOWNLOAD RESUME
           </Button>
         </div>
         </div>

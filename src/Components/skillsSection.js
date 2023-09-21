@@ -1,11 +1,9 @@
 import React from "react";
-import HomeButton from "../uiComponents/homeButton";
 import photos from "../mediaFolder/photos";
 export default function Skills()
 {
     return(
         <div className="skill-container row">
-            <HomeButton/>
             <h1 ><b>Professional Skillset 🎯</b></h1>
         {photos.map((photo, index) => (
 

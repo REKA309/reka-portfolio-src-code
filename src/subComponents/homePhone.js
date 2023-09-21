@@ -7,7 +7,7 @@ export default function HomePhone()
         <h1>Hello 👋 I'm</h1>
         <h2>WEB DEVELOPER - FSD MERN STACK | FRONT-END DEVELOPER</h2>
         <div className="about-picture">
-            <img src={GirlWorking} alt="homegirl" width={280} height={260}/>
+            <img src={GirlWorking} alt="homegirl" width={250} height={250}/>
         </div>
        </div>
            

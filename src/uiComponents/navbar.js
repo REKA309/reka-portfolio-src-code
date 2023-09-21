@@ -25,7 +25,8 @@ function handleClick(tab)
     <React.Fragment >
       <AppBar sx={{ background: "transparent" }} >
         <Toolbar>
-        
+        <img src="https://img.freepik.com/premium-vector/portrait-beautiful-young-woman_478440-398.jpg"
+        alt="sample" className="circular-image" width={60} height={60}/>
           <h1>&nbsp;&nbsp;Reka Nagaraj</h1>
             <>
               <Tabs
@@ -35,6 +36,7 @@ function handleClick(tab)
                 value={value}
                 onChange={(e, value) => setValue(value)}
               >
+                 <Tab label="Home" onClick={()=>handleClick("")} />
                 <Tab label="About" onClick={()=>handleClick("about")} />
                 <Tab label="SKills" onClick={()=>handleClick("skills")} />
                 <Tab label="Projects" onClick={()=>handleClick("projects")} />

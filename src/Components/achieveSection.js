@@ -1,10 +1,8 @@
 import React from "react";
-import HomeButton from "../uiComponents/homeButton";
 export default function Achievements()
 {
     return(
         <div className="achievements" >
-            <HomeButton/>
             <div style={{padding:10, boxSizing:'border-box'}}>
                 <h1> Academic Achievements 🏆</h1>
             </div>

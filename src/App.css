@@ -153,6 +153,7 @@ body{
 {
   display: flex;
   flex-wrap: wrap;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* Media query for smaller screens (up to 600px) */
 @media (max-width: 600px) {
@@ -263,7 +264,7 @@ body{
 }
 
 .card {
-  width: calc(25% - 20px); /* 3 cards per row with 20px gap */
+  width: calc(33.3% - 20px); /* 3 cards per row with 20px gap */
   margin: 10px;
   border: 1.3px solid #e465d8;
   cursor: pointer;
@@ -336,6 +337,8 @@ body{
 .neon{
   display: flex;
   justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
 @keyframes neon {
   0%,
@@ -398,3 +401,79 @@ overflow-y: scroll;
   }
   .achi-con >.card{width: 100%;}
  }
+ .circular-image {
+ 
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire circle */
+}
+/* contact styling */
+.contact-whole
+{
+ width: 100%;
+ height: 85vh;
+ display: flex;
+ flex-direction: row;
+
+}
+.social-media
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 15px;
+}
+.socialicon
+{
+ width: 80px;
+ height: 75px;
+}
+.contact-container
+
+{
+ display: flex;
+ flex-direction: column;
+ width: 50%;
+ justify-content: center;
+ align-items: center;
+}
+.about-picture1{
+ width: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.copyright-section
+{
+ padding: 15px;
+ box-sizing: border-box;
+}
+@media(max-width:600px)
+{
+ .contact-whole{
+   flex-direction: column;
+ }
+ .contact-container{
+   width: 100%;
+   background-image: linear-gradient(270deg,#1b1429,#140f23);
+
+ }
+ .about-picture1{
+   width: 100%;
+   background-image: linear-gradient(270deg,#1b1429,#140f23);
+
+ }
+ .socialicon
+ {
+   width: 50px;
+   height: 42px;
+ }
+ .buttons
+ {
+  flex-direction: column;
+ }
+}
+.buttons
+{
+  display: flex;
+  gap:15px
+}
