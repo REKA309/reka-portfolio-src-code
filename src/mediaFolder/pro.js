@@ -34,7 +34,7 @@
     {
         id:5,
         thumbnail:"https://img.freepik.com/free-vector/playlist-concept-illustration_114360-1929.jpg?size=626&ext=jpg&ga=GA1.2.2047273959.1682233859&semt=ais",
-        description:`This website utilizes the Spotify API to fetch music data, including artist name, song details, release date, and a 25-second audio preview. Users can input an artist's name to access this information, all presented in a visually appealing and mobile-responsive format. This is achieved through HTML, CSS, JavaScript, and Bootstrap.`,
+        description:`This website utilizes the Spotify API to fetch music data, including artist name, song details, release date, and audio preview of 25-second . Users can input an artist's name to access this information, all presented in a visually appealing and mobile-responsive format. This is achieved through HTML, CSS, JavaScript, and Bootstrap.`,
         demo:"https://paattyisai-reka-bwd44task.netlify.app/",
         github:'https://github.com/REKA309/Music.git',
         altname:"Spotify API Project"
@@ -50,7 +50,7 @@
     {
         id:7,
         thumbnail:"https://img.freepik.com/free-vector/recipe-book-concept-illustration_114360-7481.jpg?w=900&t=st=1695285049~exp=1695285649~hmac=8df3e7d25b4db74ca3e06263731926bc54a74fc83e491396507adfb347aab855",
-        description:`This website uses React.js for its frontend and enhances its look with Bootstrap and Material UI. It uses the Meal Finder API, letting users search for recipes based on a main ingredient like "carrot." You'll find carrot-based dishes with images, cooking instructions, cuisine info, and a YouTube link for each recipe.`,
+        description:`This website uses React.js for its frontend and enhances its look with Bootstrap and Material UI. It integrated with Meal Finder API, letting users search for recipes based on a main ingredient for instance "carrot" You'll find carrot-based dishes with images, cooking instructions, cuisine info, and a YouTube link for each recipe.`,
         demo:"https://flavourful-feast-website-reka.netlify.app/",
         github:'https://github.com/REKA309/flavourfeast-frontend.git',
         altname:"Meal Finder API Project"
@@ -58,7 +58,7 @@
      {
         id:8,
         thumbnail:"https://img.freepik.com/free-vector/dictionary-concept-illustration_114360-7609.jpg?size=626&ext=jpg&ga=GA1.2.2047273959.1682233859&semt=sph",
-        description:`This website uses a dictionary API to help users find word meanings and their parts of speech. It helps users understand how to use words in sentences correctly. Plus, it's mobile-friendly for easy access on different screen sizes.`,
+        description:`This website make use of dictionary API to help users find word meanings and their parts of speech. It helps users understand how to use words in sentences correctly. In addition to, it's mobile-friendly for easy access on different screen sizes.`,
         demo:"https://dictionary-reka-b44wdtask.netlify.app/",
         github:'https://github.com/REKA309/dictionary.git',
         altname:"Dictionary API Project"
@@ -66,7 +66,7 @@
     {
         id:9,
         thumbnail:"https://img.freepik.com/premium-photo/set-decorative-cosmetic-powder-lipsticks-brush-blush-eyeshadow-nail-polish-white-background_717472-2959.jpg?size=626&ext=jpg&ga=GA1.2.2047273959.1682233859&semt=ais",
-        description:`This website uses a makeup API to display a wide range of makeup products from different brands and categories. Users can view product cards with details like the name, description, image, and price. Clicking the 'Description' button reveals more info, and clicking the product image takes you to the official product page. The site is mobile-friendly thanks to Bootstrap.`,
+        description:`This website make use of makeup API to display a wide range of makeup products from different brands and categories. Users can view product cards with details like the name, description, image, and price. Clicking the 'Description' button reveals more info, and clicking the product image takes you to the official product page. The site is mobile-friendly thanks to Bootstrap.`,
         demo:"https://makeupapi-webcode-truebeauty.netlify.app/",
         github:'https://github.com/REKA309/makeupAPI-TrueBeauty.git',
         altname:"Makeup API Project"
